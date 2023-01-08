@@ -5,8 +5,11 @@
       table,
       tbody,
       thead,
-      tfoot {
-        border-color: red;
+      tfoot,
+      th,
+      tr,
+      td {
+        border: color 1px solid black;
         border-collapse: collapse;
       }
     </style>
@@ -14,13 +17,10 @@
   <body>
     <form>
       <table width="500" height="500">
-        <caption>
-          Hello
-        </caption>
         <thead>
           <tr>
-            <th>Day</th>
-            <th>Seminar</th>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
           </tr>
           <tr>
             <th>schedule</th>

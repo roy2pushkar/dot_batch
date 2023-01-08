@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: red;
+        text-align: center;
+      }
+      section {
+        background-color: aqua;
+        text-align: center;
+      }
+      footer {
+        background-color: blue;
+        text-align: center;
+      }
+      .copyright {
+        text-align: right;
+      }
+      form {
+        text-align: left;
+      }
+      .info {
+        text-align: right;
+      }
+      .course {
+        border: radius 1px solid;
+        border: black;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>I am Header</h1>
+      <div class="info">
+        <select name="media">
+          <option>
+            <a href="https://www.linkedin.com/in/roy2pushkar/">Media</a>
+          </option>
+          <option>
+            <a href="https://www.linkedin.com/in/roy2pushkar/">linktree</a>
+          </option>
+          <option>
+            <a href="https://www.linkedin.com/in/roy2pushkar/">Linkedin</a>
+          </option>
+        </select>
+        <select name="choice">
+          <option>
+            <a href="https://www.linkedin.com/in/roy2pushkar/">Social site</a>
+          </option>
+          <option>
+            <a href="https://www.linkedin.com/in/roy2pushkar/">Linkedin</a>
+          </option>
+          <option>
+            <a href="https://www.linkedin.com/in/roy2pushkar/">Linkedin</a>
+          </option>
+        </select>
+        <select name="forma" onchange="location = this.value;">
+          <option value="index.html">Home</option>
+          <option value="span.html">Contact</option>
+          <option value="lecture2.html">Sitemap</option>
+        </select>
+        <a id="course" href="https://www.linkedin.com/in/roy2pushkar/"
+          >Courses</a
+        >
+      </div>
+    </header>
+    <section>
+      <h2>I am section</h2>
+      <img src="dp.jpg" alt="hey" />
+      <pre>
+        I am a CS(AI&ML) undergraduate pursuing B.Tech and a passionate programmer
+      who loves to code. I am creatively curious and a self learner. I love
+      exploring new technologies and currently learning new skills like AI & ML
+      . I believe in smart work achieved from hard work. I’m currently focusing
+      on Full Stack Development and practicing Data Structures and Algorithms
+      everyday. I’m looking forward to contribute to Open Source Projects. I
+      have a good knowledge of Data Structures and Algorithms in C++. I'm also
+      familiar with C , Java ,Python,JS.
+      </pre>
+    </section>
+    <footer>
+      <h3>I am footer</h3>
+
+      <form action="mailto:roy2000pushkar@gmail.com">
+        <p>Contact us</p>
+        <label for="name">Name</label>
+        <input type="text" placeholder="enter your name" />
+        <br />
+        <br />
+        <label for="number">Number</label>
+        <input type="number" placeholder="enter your number" />
+        <br />
+        <br />
+        <label for="mail">email</label>
+        <input type="email" placeholder="enter your email" />
+        <br />
+        <br />
+        <label for="queries">Queries</label>
+        <input type="text" placeholder="enter your queries" />
+        <br />
+        <br />
+        <input type="button" value="Submit" />
+      </form>
+      <div class="copyright">
+        <h6>@copyright</h6>
+      </div>
+    </footer>
+  </body>
+</html>

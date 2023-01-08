@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .course {
+        display: flex;
+        margin-left: 5px;
+        margin-right: 3px;
+      }
+      .nav-info {
+        display: flex;
+        justify-content: space-between;
+      }
+      nav {
+        display: flex;
+      }
+      li {
+        list-style: none;
+        margin-left: 2rem;
+
+        padding-top: 7px;
+        font-size: 1.3rem;
+      }
+      ul {
+        display: inline-flex;
+        justify-content: space-between;
+
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+      }
+      input {
+        height: 30px;
+        width: 200px;
+        margin: 20px;
+      }
+      #home {
+        height: auto;
+        width: 50%;
+        margin-left: 50%;
+      }
+      .love {
+        color: blue;
+      }
+
+      .main-contents {
+        background-color: aqua;
+        background-color: aqua;
+      }
+      #offer {
+        color: rgb(57, 57, 112);
+        margin-top: 5px;
+      }
+      #off {
+        background-color: rgb(27, 240, 169);
+        color: white;
+        display: inline;
+      }
+      #OOPM {
+        margin: 10px;
+        border-radius: 15px;
+        margin-left: 10px;
+      }
+      #web-dev {
+        margin: 10px;
+        border-radius: 15px;
+      }
+      #DSA-Supreme {
+        margin: 10px;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <span class="nav-info">
+      <nav>
+        <div class="codehelp-logo"><img src="codehelplogo.svg"</div>
+        <ul>
+          <a href="#courses">
+            <li>Home</li>
+          </a>
+          <a href="#courses">
+            <li>About us</li>
+          </a>
+          <a href="#courses">
+            <li>Courses</li>
+          </a>
+          <a href="#courses">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+      <input type="button" value="Login" />
+    </span>
+
+    <span class="main-content">
+      <span class="main-contents">
+        <h1 class="text">
+          <span class="learn">Learn</span>
+          <span class="with">With</span>
+          <span class="love">Love</span>
+        </h1>
+      </span>
+      <img id="home" src="codehelphome.webp" width="100%" height="auto>" />
+    </span>
+    <span class="course" id="#courses">
+      <span id="web-dev" style="border-radius: 15px">
+        <img src="codehelp.jpg" width="400px" height="300px" />
+        <h2>Web Development master Course @codehelp</h2>
+        <hr />
+
+        <h4 id="offer">
+          ₹4500 <span><del>₹6999</del></span>
+          <p id="off">42%off</p>
+        </h4>
+      </span>
+      <span id="DSA-Supreme" style="border-radius: 15px">
+        <img src="dsasupreme.jpg" width="400px" height="300px" />
+        <h2>DSA Supreme master Course @codehelp</h2>
+        <hr />
+
+        <h4 id="offer">
+          ₹4500 <span><del>₹6999</del></span>
+          <p id="off">42%off</p>
+        </h4>
+      </span>
+      <span id="OOPM" style="border-radius: 15px">
+        <img src="oopm.jpeg" width="400px" height="300px" />
+        <h2>Object Oriented master course @codehelp</h2>
+        <hr />
+
+        <h4 id="offer">
+          ₹4500 <span><del>₹6999</del></span>
+          <p id="off">42%off</p>
+        </h4>
+      </span>
+    </span>
+
+    <footer>
+      <p>@copyright</p>
+    </footer>
+  </body>
+</html>
