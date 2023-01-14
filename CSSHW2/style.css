@@ -21,6 +21,7 @@
     border-radius: 15px;
     box-shadow: 20px;
     box-shadow: 0 0 4px 0;
+    cursor: pointer;
    
     
 }
@@ -76,5 +77,5 @@ button{
     margin-right: 20px;
     margin-bottom: 15px;
     color: white;
-    background-color: rgb(0, 13, 255);
+    background-color: #215743;
 }
