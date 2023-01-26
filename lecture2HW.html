@@ -9,34 +9,44 @@
       html {
         scroll-behavior: smooth;
       }
+      a {
+        text-decoration: none;
+        color: red;
+      }
+      p {
+        color: darkslateblue;
+      }
+      img {
+        border-radius: 5px;
+        margin-left: 0;
+      }
     </style>
   </head>
+
   <body>
     <h1>Pushkar Roy</h1>
 
-    <a href="#res">Go to Resources</a>
+    <p><a href="#res">Go to Resources</a></p>
+    <p><a href="#ach">Go to Achivements</a></p>
     <h6><i>The creator of own world</i></h6>
-    <img
-      src="dp.jpg"
-      alt="dp picture"
-      width="200"
-      height="200"
-      position="relative"
-    />
-    <h6>The photograph of Pushkar</h6>
+    <figure>
+      <img src="dp.jpg" alt="dp picture" width="200" height="200" />
+      <figcaption>The photograph of Pushkar</figcaption>
+    </figure>
 
-    <h1>Biography</h1>
-    <h6>
+    <h2>Biography</h2>
+    <p>
       I am a CS(AI&ML) undergraduate pursuing B.Tech and a passionate programmer
       who loves to code. I am creatively curious and a self learner. I love
-      exploring new technologies and currently learning new skills like AI & ML
-      . I believe in smart work achieved from hard work. I’m currently focusing
-      on Full Stack Development and practicing Data Structures and Algorithms
-      everyday. I’m looking forward to contribute to Open Source Projects. I
-      have a good knowledge of Data Structures and Algorithms in C++. I'm also
-      familiar with C , Java ,Python,JS.
-    </h6>
-    <h1>Achivements</h1>
+      exploring new technologies and currently learning new skills like
+      <b>AI & ML</b> . I believe in smart work achieved from hard work. I’m
+      currently focusing on Full Stack Development and practicing Data
+      Structures and Algorithms everyday. I’m looking forward to contribute to
+      Open Source Projects. I have a good knowledge of
+      <b>Data Structures and Algorithms</b>in C++. I'm also familiar with
+      <b>C , Java ,Python,JS.</b>
+    </p>
+    <h2 id="ach">Achivements</h2>
     <ul>
       <li><strong>2017</strong> - Completed my 10th</li>
       <li><strong>2019</strong> - completed my 12th</li>
@@ -50,26 +60,20 @@
 
     <blockquote>
       <p>"Motivation is Temporary , Dicipline is Permanent"</p>
-      <cite>
-        --Pushkar Roy
-        <a href="https://www.linkedin.com/in/roy2pushkar/"></a>
-        >
-      </cite>
+      <cite> --Pushkar Roy </cite>
     </blockquote>
 
-    <h1>Resources</h1>
-    <h2 id="#res"></h2>
+    <h2 id="res">Resources</h2>
+
     <ul>
       <li>
-        <a href="https://www.linkedin.com/in/roy2pushkar/"><h6>Linkedin</h6></a>
+        <a href="https://www.linkedin.com/in/roy2pushkar/"><p>Linkedin</p></a>
       </li>
       <li>
-        <a href="https://twitter.com/roy2pushkar"><h6>Twitter</h6></a>
+        <a href="https://twitter.com/roy2pushkar"><p>Twitter</p></a>
       </li>
       <li>
-        <a href="https://www.instagram.com/pushkaroy/?hl=en"
-          ><h6>Intagram</h6></a
-        >
+        <a href="https://www.instagram.com/pushkaroy/?hl=en"><p>Intagram</p></a>
       </li>
     </ul>
   </body>
